@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Random Jeopardy Question</h1>
+</hr>
+  <h2>Category: {{ category }}</h2>
+  <h3>Value: {{ difficulty }}</h3>
+
+  <p>Question: {{ question }}</p>
+
+  <p>Answer: <a href="#" class="spoiler">{{ answer }}</a></p>
+
+{% endblock %}
